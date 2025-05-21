@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.contact-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #363a2f;
+  color: #fff;
+  padding: 25px 40px;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  position: fixed;    
+  top: 0;
+  left: 0;
+  z-index: 999;       
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+  font-size: 14px;
+}
+
+.icon {
+  margin-right: 8px;
+  font-size: 13px;
+}
+
+.separator {
+  margin: 0 15px;
+  font-size: 18px;
+  color: #ccc;
+}
+
+.contact-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.contact-link:visited {
+  color: #fff;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: #fff;
+  cursor: pointer;
+}
+
+.contact-link:active {
+  color: #fff;
+}
