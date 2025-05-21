@@ -1,0 +1,119 @@
+*
+ {
+  box-sizing: border-box;
+}
+
+.footer {
+  background-color: #0e0e0e;
+  color: #fff;
+  padding: 40px 0;
+  width: 100%;
+  overflow-x: hidden;
+  font-family: Arial, sans-serif;
+}
+
+.footer-sections {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 0 60px;
+  margin: 0;
+}
+
+
+.footer-col {
+  flex: 1;
+  min-width: 250px;
+  padding-right: 40px;
+  margin-bottom: 30px;
+}
+
+.footer-col:last-child {
+  padding-right: 0;
+}
+
+.footer-col h4 {
+  font-size: 12px;
+  color: #aaa;
+  margin-bottom: 12px;
+  text-transform: uppercase;
+}
+
+.footer-col a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  margin: 4px 0;
+  font-size: 14px;
+}
+
+.footer-col a:hover {
+  text-decoration: underline;
+}
+
+.collab p {
+  margin-top: 20px;
+  font-size: 13px;
+  color: #aaa;
+}
+
+.brands {
+  display: flex;
+  gap: 16px;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.brands img {
+  width: 40px;
+  height: auto;
+}
+
+.subscribe {
+  margin-top: 20px;
+}
+
+.subscribe p {
+  font-size: 12px;
+  color: #bbb;
+  margin-bottom: 10px;
+}
+
+.email-subscribe {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.email-subscribe input {
+  flex: 1;
+  padding: 8px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #555;
+  color: white;
+  outline: none;
+}
+
+.email-subscribe button {
+  background-color: #4a4a3f;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.email-subscribe button:hover {
+  background-color: #66664b;
+}
+
+.country {
+  margin-top: 20px;
+}
+
+.country a {
+  font-weight: bold;
+  color: #ccc;
+}
