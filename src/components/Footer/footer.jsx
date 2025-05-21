@@ -1,8 +1,8 @@
 import React from 'react';
 import './Footer.css';
-import nike from '../assets/nike.svg'
-import adidas from '../assets/adidas.svg'
-import puma from '../assets/puma.svg'
+import nike from '../../assets/nike.svg'
+import adidas from '../../assets/adidas.svg'
+import puma from '../../assets/puma.svg'
 
 const Footer = () => {
     return (
