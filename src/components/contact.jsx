@@ -2,6 +2,7 @@ import { MdEmail } from 'react-icons/md';
 import { FiPhoneCall } from 'react-icons/fi';
 import './ContactBar.css';
 
+
 function Contact() {
   return (
     <div className="contact-bar">
