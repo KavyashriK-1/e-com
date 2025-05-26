@@ -1,4 +1,4 @@
-import Contact from "./components/contact";
+import Contact from "./components/ContactBar/contact";
 function App() {
   return (
     <div>
