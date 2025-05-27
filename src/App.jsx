@@ -6,9 +6,13 @@ import ContactBar from './components/ContactBar/contact';
 
 function App() {
   return (
-    <div>
+    <div className="page-wrapper">
       <ContactBar/>
       <Navbar/>
+       <main className="main-content">
+    {/* Your page routes or content */}
+  </main>
+  
       <Footer />
       
     </div>
@@ -16,3 +20,11 @@ function App() {
 }
 
 export default App;
+
+<div className="page-wrapper">
+  <Navbar />
+  <main className="main-content">
+    {/* Your page routes or content */}
+  </main>
+  <Footer />
+</div>
